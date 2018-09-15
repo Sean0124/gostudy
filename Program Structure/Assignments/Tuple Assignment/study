@@ -1,0 +1,11 @@
+x, y = y, x
+a[i], a[j] = a[j], a[i]
+
+f, err = os.Open("foo.txt")
+
+v, ok = m[key]
+v, ok = x.(T)
+v, ok = <-ch
+
+_, err = io.Copy(dst, src)
+_, ok = x.(T)
